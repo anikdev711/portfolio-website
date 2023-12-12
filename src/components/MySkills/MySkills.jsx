@@ -9,7 +9,7 @@ import mongodb from "../../assets/skills/mongodb.png"
 const MySkills = () => {
     return (
         <div>
-            <div className="mt-10 mb-10">
+            <div className="mt-20 mb-10 bg-white">
                 <h3 className="text-xl font-bold text-center">My Skills</h3>
                 
                 <div className="mt-10">

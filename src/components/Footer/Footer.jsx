@@ -19,6 +19,7 @@ const Footer = () => {
                     </div>
                 </nav>
                 <aside>
+                    
                     <p>Copyright © 2023 - All right reserved</p>
                 </aside>
             </footer>

@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import emailjs from '@emailjs/browser';
 import Swal from "sweetalert2";
+import { MdOutlineEmail } from "react-icons/md";
 
 const Contact = () => {
     const form = useRef();
@@ -47,6 +48,10 @@ const Contact = () => {
             <div className="flex flex-col justify-center items-center h-screen">
                 <div className="text-center font-bold mt-10 mb-10 text-2xl">
                     <h3>Contact me</h3>
+                    <div className="text-base mt-5 flex justify-center items-center gap-2">
+                        <MdOutlineEmail />
+                        <span>anikdev100@gmail.com </span>
+                    </div>
                 </div>
                 <form ref={form} onSubmit={sendEmail} className="bg-orange-400 p-10 rounded-xl">
                     <label className="font-bold">Name:</label>

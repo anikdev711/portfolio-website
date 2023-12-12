@@ -1,6 +1,7 @@
 import Banner from "../../components/Banner/Banner";
 import Experience from "../../components/Experience/Experience";
 import MySkills from "../../components/MySkills/MySkills";
+import Services from "../../components/Services/Services";
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
             <Banner></Banner>
             <MySkills></MySkills>
             <Experience></Experience>
+            <Services></Services>
         </div>
     );
 };

@@ -11,7 +11,7 @@ const MySkills = () => {
         <div>
             <div className="mt-10 mb-10">
                 <h3 className="text-xl font-bold text-center">My Skills</h3>
-                <h4 className="text-2xl font-bold text-center">Everyday I develop skills</h4>
+                
                 <div className="mt-10">
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-lg gap-10 mx-auto">
